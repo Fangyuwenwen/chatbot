@@ -1,0 +1,17 @@
+line-bot-sdk
+bs4
+pandas
+numpy
+lxml
+markupsafe
+jinja2
+itsdangerous
+itsdangerous
+gspread
+google_auth_oauthlib
+future
+flask
+python-dateutil
+click
+charset_normalizer
+certifi
