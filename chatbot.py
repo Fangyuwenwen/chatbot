@@ -5,7 +5,7 @@ import json
 import os
 import sys
 import requests 
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 import pandas as pd
 import re
 import wsgiref.simple_server
