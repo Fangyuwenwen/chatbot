@@ -1,10 +1,9 @@
-import requests
-import statistics
-import errno
-import json
+#import requests
+#import statistics
+#import errno
+#import json
 import os
 import sys
-import requests 
 #from bs4 import BeautifulSoup
 import pandas as pd
 import re
