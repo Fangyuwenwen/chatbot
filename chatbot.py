@@ -117,15 +117,13 @@ def application(environ, start_response):
         return create_body('Bad Request')
 
     # if event is MessageEvent and message is TextMessage, then echo text
-    """for event in events:
-        if isinstance(event, MessageEvent):
-            if  isinstance(event.message, LocationMessage):
-                get_location(event)            
-            if  isinstance(event.message, TextMessage):
-                handle_message(event)"""
+    for event in events:
+        if isinstance(event, MessageEvent):           
+            handle_message(event)
 
     start_response('200 OK', [])
     return create_body('OK')
+
 
 
 def create_body(text):
